@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python"><img src="https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="sqlite">
 
-The Multiclient Python Keylogger is a versatile tool designed to monitor keystrokes on multiple client machines simultaneously. It offers remote packet capture capabilities, allowing users to gather network packets remotely. Whether for security analysis, parental control, or remote monitoring, this keylogger provides essential functionalities for various use cases.
+Remote Keylogger developed in Python 3, captures keystrokes on multiple client systems. It supports remote start and stop of the keylogging process. The server component utilizes SQLite to manage client data, with individual keylogs stored in a designated 'clientfolder' directory for easy retrieval.
 
 
 ## Features
@@ -16,9 +16,6 @@ The Multiclient Python Keylogger is a versatile tool designed to monitor keystro
 ## Installation
 
 Ensure Python 3.x is installed on your system before proceeding with the setup. Follow these steps to install and configure the MultiClient Remote Keylogger:
-
-
-### Install Dependencies
 
 Run the following command to install the necessary Python packages.
 
