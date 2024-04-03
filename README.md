@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" alt="Python"><img src="https://img.shields.io/badge/Sqlite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="sqlite">
 
-Remote Keylogger developed in Python 3, captures keystrokes on multiple client systems. It supports remote start and stop of the keylogging process. The server component utilizes SQLite to manage client data, with individual keylogs stored in a designated 'clientfolder' directory for easy retrieval.
+Remote Keylogger is a Python-based software tool designed to monitor and record keystrokes across multiple client systems remotely. With its capability to initiate and halt the keylogging process from a distance, this tool offers an efficient solution for managing keystroke data across different devices. Leveraging SQLite, the server component efficiently organizes client data, while storing the captured keystrokes in a specified 'ClientFolder' directory for easy retrieval of client keystroke logs.
 
 
 ## Features

@@ -125,7 +125,6 @@ class SqliteHandler:
             for row in rows:
                 table.add_row(row)
             
-=
             print(table)
         except sqlite3.Error as error:
             print("[-]Error occurred while fetching data:", error)

