@@ -7,16 +7,24 @@ The Multiclient Python Keylogger is a versatile tool designed to monitor keystro
 
 ## Features
 
-* Remote Packet Capture: Capture network packets remotely.
+* Multi-Client Support: Simultaneously monitor keystrokes on various client machines from a single server.
+* Remote Control: Start and stop the keylogging process on any connected client machine.
+* Cross-Platform Compatibility: Designed to run on different operating systems, ensuring wide usability.
 
 
 
 ## Installation
 
-Remote Sniffer requires Python 3 and certain dependencies. Use pip to install the required packages:
+Ensure Python 3.x is installed on your system before proceeding with the setup. Follow these steps to install and configure the MultiClient Remote Keylogger:
 
-`pip install -r requirements.txt`
 
+### Install Dependencies
+
+Run the following command to install the necessary Python packages.
+
+`
+  pip install -r requirements.txt
+`
 
 
 ## Usage 
